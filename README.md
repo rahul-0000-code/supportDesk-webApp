@@ -4,6 +4,10 @@
 
 This is a Support Desk web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The application provides features for managing service requests, user authentication (login and registration), and utilizes JSON Web Tokens (JWT) for secure authentication.
 
+Demonstration video
+https://github.com/rahul-0000-code/supportDesk-webApp/assets/85439546/f5cf24fd-7156-4da4-968c-eb30f5a76b87
+
+
 ## Features
 
 - **User Authentication:** Users can register for an account and login securely.
