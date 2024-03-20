@@ -12,6 +12,11 @@ connectDB()
 const app = express()
 
 app.use(express.json())
+app.use(cors());
+app.get("/", (req,res)  =>{
+  res.setHeader("Access-Control-Allow-Credentials","true");
+  res.send("Api is running..");
+});
 app.use(express.urlencoded({ extended: false }))
 
 // Routes
